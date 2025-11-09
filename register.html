@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Register — Scutter Casino</title>
+  <style>
+    body{font-family:Arial;background:#081428;color:#fff;display:flex;justify-content:center;align-items:center;height:100vh;}
+    form{background:#0f1724;padding:20px;border-radius:10px;width:300px;box-shadow:0 4px 12px rgba(0,0,0,.4);}
+    input{width:100%;padding:10px;margin:8px 0;border:none;border-radius:6px;}
+    button{width:100%;padding:10px;background:#f59e0b;color:#000;border:none;border-radius:6px;font-weight:bold;cursor:pointer;}
+    a{color:#93c5fd;text-decoration:none;}
+  </style>
+</head>
+<body>
+  <form action="save_user.php" method="POST">
+    <h2>Register</h2>
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="text" name="phone" placeholder="Cellphone Number" required>
+    <button type="submit">Sign Up</button>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </form>
+</body>
+</html>
